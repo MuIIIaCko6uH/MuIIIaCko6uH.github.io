@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://rozetka-mramor.by/sitemap.xml
+Host: rozetka-mramor.by
