@@ -1,0 +1,417 @@
+/*
+skins available:
+	- opportune
+	- majestic
+	- generous
+*/
+
+/* the container */
+.bannerscollection_zoominout {
+	position:relative;
+	line-height:20px;
+}
+.bannerscollection_zoominout img {
+	position:relative;
+	display: block;
+	max-width:inherit;
+	max-height:inherit;
+	-webkit-backface-visibility: hidden;
+	cursor: -moz-grab;
+	cursor: pointer;
+	/*width:inherit;
+	height:inherit;	*/
+}
+.bannerscollection_zoominout_list {
+	margin:0;
+	padding:0;
+	list-style:none;
+	display:none;
+}
+
+.bannerscollection_zoominout .contentHolderVisibleWrapper {
+	position:absolute;
+	overflow:hidden;
+	margin-top:0px;
+	*margin-top:-20px;
+}
+.bannerscollection_zoominout .contentHolder {
+	position:absolute;
+}
+.bannerscollection_zoominout .contentHolderUnit {
+	/*position:relative;
+	float:left;*/
+	display:block;
+	overflow:hidden;
+}
+
+
+.mycanvas {
+	/*border:1px solid #ff0000;*/
+	position:absolute; bottom:10px;
+	left:10px;
+	z-index:10;
+}
+.myloader {
+
+	width:37px;
+	height:37px;
+	position:absolute;
+	left:49%;
+	top:49%;
+	z-index:5;
+}
+
+
+
+/***opportune SKIN***/
+.bannerscollection_zoominout.opportune .contentHolderVisibleWrapper {
+	position:absolute;
+	overflow:hidden;
+	margin-top:0px;
+}
+
+.bannerscollection_zoominout.opportune .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+	width:100%;
+}
+
+.bannerscollection_zoominout.opportune .leftNav {
+	position:absolute;
+	left:0px;
+	width:63px;
+	height:72px;
+	
+	cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .rightNav {
+	position:absolute;
+	right:0px;
+	width:63px;
+	height:72px;
+		cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .bottomNav {
+	position:absolute;
+	width:0px;
+	height:24px;
+	bottom:-56px;
+	z-index:3;
+	padding-left:9px;
+}
+.bannerscollection_zoominout.opportune .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:12px;
+	height:12px;
+	
+	padding-left:6px;
+	cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:12px;
+	height:12px;
+	padding-left:6px;
+	cursor: pointer;
+}
+
+
+
+.bannerscollection_zoominout.opportune .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:95px;
+
+	bottom:25px;
+	margin-left:-44px;
+}
+.bannerscollection_zoominout.opportune .innerBottomOverThumb {
+	position:relative;
+	width:80px;
+	height:80px;
+	margin:4px 0 0 4px;
+	overflow:hidden;
+}
+.bannerscollection_zoominout.opportune .bottomOverThumb img {
+
+}
+.bannerscollection_zoominout.opportune .playOver {
+	position:absolute;
+	width:73px;
+	height:73px;
+	display:none;
+	z-index:4;
+	cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .playOver:hover {
+	
+	display:none;
+	z-index:4;
+	cursor: pointer;
+}
+
+
+
+/***opportune SKIN***/
+.bannerscollection_zoominout.opportune .contentHolderVisibleWrapper {
+	position:absolute;
+	overflow:hidden;
+	margin-top:0px;
+}
+
+.bannerscollection_zoominout.opportune .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+	width:100%;
+}
+
+.bannerscollection_zoominout.opportune .leftNav {
+	position:absolute;
+	left:0px;
+	width:63px;
+	height:72px;
+	background:url(skins/opportune/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.bannerscollection_zoominout.opportune .leftNav:hover {
+	background:url(skins/opportune/leftNavON.png) 0 0 no-repeat;
+}
+.bannerscollection_zoominout.opportune .rightNav {
+	position:absolute;
+	right:0px;
+	width:63px;
+	height:72px;
+	background:url(skins/opportune/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.bannerscollection_zoominout.opportune .rightNav:hover {
+	background:url(skins/opportune/rightNavON.png) 0 0 no-repeat;
+}
+.bannerscollection_zoominout.opportune .bottomNav {
+	position:absolute;
+	width:0px;
+	height:240px;
+	bottom:-56px;
+	z-index:3;
+	padding-left:9px;
+}
+.bannerscollection_zoominout.opportune .bottomNavButtonOFF {
+	float:left;
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(skins/opportune/bottomNavOFF.png) 0 0 no-repeat;
+	padding-left:6px;
+	cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .bottomNavButtonON {
+	float:left;
+	display:block;
+	width:12px;
+	height:12px;
+	padding-left:6px;
+	background:url(skins/opportune/bottomNavON.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+
+
+.bannerscollection_zoominout.opportune .bottomOverThumb {
+	position:absolute;
+	width:88px;
+	height:95px;
+	background:url(skins/opportune/bottomOverThumbBg.png) 0px 0px no-repeat;
+	bottom:25px;
+	margin-left:-44px;
+}
+.bannerscollection_zoominout.opportune .innerBottomOverThumb {
+	position:relative;
+	width:80px;
+	height:80px;
+	margin:4px 0 0 4px;
+	overflow:hidden;
+}
+.bannerscollection_zoominout.opportune .bottomOverThumb img {
+
+}
+.bannerscollection_zoominout.opportune .playOver {
+	position:absolute;
+	width:73px;
+	height:73px;
+	background:url(skins/opportune/play_overOFF.png) 0 0 no-repeat;
+	display:none;
+	z-index:4;
+	cursor: pointer;
+}
+
+.bannerscollection_zoominout.opportune .playOver:hover {
+	background:url(skins/opportune/play_overON.png) 0 0 no-repeat;
+	display:none;
+	z-index:4;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.bannerscollection_zoominout.generous .thumbsHolder_ThumbON a img, .thumbsHolder_ThumbON a  { border: none; overflow: hidden; float: left; }
+.bannerscollection_zoominout.generous .thumbsHolder_ThumbON a:hover { border: #F00 3px solid; }
+.bannerscollection_zoominout.generous .thumbsHolder_ThumbON a:hover img  { margin: -3px; }
+
+.bannerscollection_zoominout.generous .carouselLeftNav {
+	position:absolute;
+	width:44px;
+	height:110px;
+	
+	cursor: pointer;
+}
+
+
+.bannerscollection_zoominout.generous .carouselRightNav {
+	position:absolute;
+	width:44px;
+	height:110px;
+	
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************Text Styles***************************************************/
+
+.bannerscollection_zoominout_texts {
+	position:absolute;
+	z-index:2;
+	display: none;
+	width:100%;
+}
+.bannerscollection_zoominout_text_line {
+	position:absolute;
+}
+/****/
+
+
+
+
+
+
+/***OpportuneFullWidthTexts***/
+
+
+
+
+
+
+
+/***OpportuneFullScreenTexts***/
+
+.textElement11_opportuneFullScreen {
+	font: bold 3.3em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	background-color: #F5AD41;
+	color:#FFFFFF;
+	padding:0 10px;
+}
+.textElement12_opportuneFullScreen {
+	font: bold 3.5em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	background-color: #F5AD41 ;
+	color:#FFFFFF;
+	padding:0 10px;
+}
+
+
+.textElement21_opportuneFullScreen {
+	font: bold 3em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41;
+	padding:0 10px;
+}
+
+.textElement22_opportuneFullScreen {
+	font: bold 2.8em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41 ;
+	padding:0 10px;
+}
+
+.textElement31_opportuneFullScreen {
+	font: bold 3.3em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41 ;
+	padding:0 10px;
+}
+
+
+.textElement34_opportuneFullScreen {
+	font: bold 3em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41 ;
+	padding:0 10px;
+}
+
+
+.textElement41_opportuneFullScreen {
+	font: bold 3.6em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41 ;
+	padding:0 10px;
+}
+
+.textElement42_opportuneFullScreen {
+	font: bold 3.3em 'ConsolaMonoBook';
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color: #F5AD41 ;
+	padding:0 10px;
+}
+
+
+
+
+
+
+
+

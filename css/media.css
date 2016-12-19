@@ -1,0 +1,129 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.personal_last_block {
+		margin-top: 35px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.resume_container .left,
+	.section_content .resume_container h3,
+	.resume_container .resume_icon {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.resume_container .left h3 {
+		margin-top: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1 {
+		font-size: 1.5em;
+		margin: 90px auto;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.main_footer {
+		text-align: left;
+	}
+	.toggle_mnu {
+		width: 40%;
+		height: 40%;
+	}
+		
+	.portfolio_item a {
+		font-size: 10px;
+	}
+
+	.portfolio_item h3 {
+		font-size: 8px;
+	}
+
+	.podrt_descr h3 {
+		font-size: 12px
+	}
+	
+	
+       	.textElement11_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 30% 0% 0% 0%;
+	}
+	
+	.textElement12_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 41% 0% 0% 0%;
+	}
+	
+	.textElement21_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 27% 0% 0% 0%;
+	}
+	
+	.textElement22_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 23% 0% 0% 0%;
+	}
+	.textElement31_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 18% 0% 0% 0%;
+	}
+	
+	.textElement34_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 23% 0% 0% 0%;
+	}
+	.textElement41_opportuneFullScreen {
+		font: bold  5.7em 'ConsolaMonoBook';
+		margin: 70px 0px 0px 0px;
+	}
+	
+	.textElement42_opportuneFullScreen {
+		font: bold 5.7em 'ConsolaMonoBook';
+		margin: 90px 0px 0px 0px;
+	}
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
