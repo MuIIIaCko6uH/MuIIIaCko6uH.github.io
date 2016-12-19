@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with www.majento.ru -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://rozetka-mramor.by/</loc>
+	<lastmod>2016-12-20T01:02:53+03:00</lastmod>
+	<priority>1.00</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://rozetka-mramor.by/3d.html</loc>
+	<lastmod>2016-12-20T01:02:53+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://rozetka-mramor.by/gal.html</loc>
+	<lastmod>2016-12-20T01:02:53+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://rozetka-mramor.by/index.html</loc>
+	<lastmod>2016-12-20T01:02:53+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+<url>
+	<loc>http://rozetka-mramor.by/modeli.html</loc>
+	<lastmod>2016-12-20T01:02:53+03:00</lastmod>
+	<priority>0.90</priority>
+	<changefreq>weekly</changefreq>
+</url>
+</urlset>
