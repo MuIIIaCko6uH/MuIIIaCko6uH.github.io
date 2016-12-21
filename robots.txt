@@ -2,6 +2,9 @@ User-agent: *
 Sitemap: http://rozetka-mramor.by/sitemap.xml
 Host: rozetka-mramor.by
 
+User-agent: *
+Disallow:
+
 User-agent: Yandex
 Disallow:
 Host: rozetka-mramor.by
